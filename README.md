@@ -1,6 +1,11 @@
 <!-- HEADER -->
 <p align="center">
-  <img src="https://i.pinimg.com/736x/bd/12/26/bd1226d25e178dd15b55409d58d4cd1e.jpg" width="180" alt="Okarys Music Logo"/>
+  <img 
+    src="https://i.pinimg.com/736x/bd/12/26/bd1226d25e178dd15b55409d58d4cd1e.jpg"
+    width="180"
+    alt="image"
+    style="border-radius: 20px;"
+  />
 </p>
 
 <h1 align="center">Programación Web</h1>
