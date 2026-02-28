@@ -17,7 +17,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-En%20Desarrollo-blue">
-  <img src="https://img.shields.io/badge/HTML-CSS-JS-orange">
   <img src="https://img.shields.io/badge/Licencia-Educativa-green">
 </p>
 
