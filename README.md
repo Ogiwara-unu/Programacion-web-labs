@@ -3,7 +3,7 @@
   <img src="https://i.pinimg.com/736x/bd/12/26/bd1226d25e178dd15b55409d58d4cd1e.jpg" width="180" alt="Okarys Music Logo"/>
 </p>
 
-<h1 align="center">OkaryMsc</h1>
+<h1 align="center">Programación Web</h1>
 
 <p align="center">
   📚 Repositorio de laboratorios de Programación Web <br>
