@@ -18,20 +18,20 @@
 
                     {{-- 4 botones que el profesor ingresó --}}
 
-                    <flux:sidebar.item icon="arrow-long-up" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>
-                            {{ __('Button 1') }}
-                    </flux:sidebar.item>    
+                    <flux:sidebar.item icon="wrench" href="{{ route('working', ['page' => 'Pagina 1']) }}" wire:navigate>
+                            {{ __('Working') }}
+                    </flux:sidebar.item> 
 
-                    <flux:sidebar.item icon="arrow-long-down" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>
-                            {{ __('Button 2') }}
+                    <flux:sidebar.item icon="arrow-right" href="https://github.com/Ogiwara-unu" target="_blank">
+                            {{ __('Github') }}
                     </flux:sidebar.item>
 
-                    <flux:sidebar.item icon="arrow-left" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>
-                            {{ __('Button 3') }}
+                    <flux:sidebar.item icon="arrow-left" href="{{ route('working', ['page' => 'Pagina 2']) }}" wire:navigate>
+                            {{ __('Pag 2') }}
                     </flux:sidebar.item>
 
-                    <flux:sidebar.item icon="arrow-right" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>
-                            {{ __('Button 4') }}
+                    <flux:sidebar.item icon="arrow-right" href="{{ route('working', ['page' => 'Pagina 3']) }}" wire:navigate>
+                            {{ __('Pag 3') }}
                     </flux:sidebar.item>
                     
                 </flux:sidebar.group>

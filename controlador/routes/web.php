@@ -8,4 +8,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::view('dashboard', 'dashboard')->name('dashboard');
 });
 
+Route::get('/working/{page}', function ($page) {
+        return view('working', ['page' => $page]);
+})->name('working');
+
 require __DIR__.'/settings.php';
