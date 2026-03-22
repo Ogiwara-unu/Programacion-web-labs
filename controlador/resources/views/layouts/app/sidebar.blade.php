@@ -18,20 +18,20 @@
 
                     {{-- 4 botones que el profesor ingresó --}}
 
-                    <flux:sidebar.item icon="wrench" href="{{ route('working', ['page' => 'Pagina 1']) }}" wire:navigate>
-                            {{ __('Working') }}
+                    <flux:sidebar.item icon="envelope" href="{{ route('correo1') }}" wire:navigate>
+                            {{ __('Correo 1') }}
                     </flux:sidebar.item> 
 
-                    <flux:sidebar.item icon="arrow-right" href="https://github.com/Ogiwara-unu" target="_blank">
-                            {{ __('Github') }}
+                    <flux:sidebar.item icon="envelope" href="{{ route('correo2') }}" wire:navigate>
+                            {{ __('Correo 2') }}
                     </flux:sidebar.item>
 
-                    <flux:sidebar.item icon="arrow-left" href="{{ route('working', ['page' => 'Pagina 2']) }}" wire:navigate>
-                            {{ __('Pag 2') }}
+                    <flux:sidebar.item icon="envelope" href="{{ route('correo3') }}" wire:navigate>
+                            {{ __('Correo 3') }}
                     </flux:sidebar.item>
 
-                    <flux:sidebar.item icon="arrow-right" href="{{ route('working', ['page' => 'Pagina 3']) }}" wire:navigate>
-                            {{ __('Pag 3') }}
+                    <flux:sidebar.item icon="envelope" href="{{ route('correo4') }}" wire:navigate>
+                            {{ __('Correo 4') }}
                     </flux:sidebar.item>
                     
                 </flux:sidebar.group>
