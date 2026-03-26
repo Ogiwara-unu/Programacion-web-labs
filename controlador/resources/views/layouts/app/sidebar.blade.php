@@ -33,6 +33,22 @@
                     <flux:sidebar.item icon="envelope" href="{{ route('correo4') }}" wire:navigate>
                             {{ __('Correo 4') }}
                     </flux:sidebar.item>
+
+                    <flux:sidebar.item icon="envelope" href="#">
+                            {{ __('Cambiar Color y Mensaje 1') }}
+                    </flux:sidebar.item>
+
+                    <flux:sidebar.item icon="envelope" href="#">
+                            {{ __('Cambiar Color y Mensaje 2') }}
+                    </flux:sidebar.item>
+
+                    <flux:sidebar.item icon="envelope" href="#">
+                            {{ __('Cambiar Color y Mensaje 3') }}
+                    </flux:sidebar.item>
+
+                    <flux:sidebar.item icon="envelope" href="#">
+                            {{ __('Cambiar Color y Mensaje 4') }}
+                    </flux:sidebar.item>
                     
                 </flux:sidebar.group>
             </flux:sidebar.nav>
