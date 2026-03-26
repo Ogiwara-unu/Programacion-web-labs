@@ -34,19 +34,19 @@
                             {{ __('Correo 4') }}
                     </flux:sidebar.item>
 
-                    <flux:sidebar.item icon="envelope" href="#">
+                    <flux:sidebar.item icon="swatch" href="javascript:void(0)" onclick="changeDashboardColor('#dbeafe', 'Hello from sidebar!-Cambio de color 1')">
                             {{ __('Cambiar Color y Mensaje 1') }}
                     </flux:sidebar.item>
 
-                    <flux:sidebar.item icon="envelope" href="#">
+                    <flux:sidebar.item icon="swatch" href="javascript:void(0)" onclick="changeDashboardColor('#d1fae5', 'Hello from sidebar!-Cambio de color 2')">
                             {{ __('Cambiar Color y Mensaje 2') }}
                     </flux:sidebar.item>
 
-                    <flux:sidebar.item icon="envelope" href="#">
+                    <flux:sidebar.item icon="swatch" href="javascript:void(0)" onclick="changeDashboardColor('#fef3c7', 'Hello from sidebar!-Cambio de color 3')">
                             {{ __('Cambiar Color y Mensaje 3') }}
                     </flux:sidebar.item>
 
-                    <flux:sidebar.item icon="envelope" href="#">
+                    <flux:sidebar.item icon="swatch" href="javascript:void(0)" onclick="changeDashboardColor('#ffe4e6', 'Hello from sidebar!-Cambio de color 4')">
                             {{ __('Cambiar Color y Mensaje 4') }}
                     </flux:sidebar.item>
                     
@@ -126,5 +126,20 @@
         {{ $slot }}
 
         @fluxScripts
+
+        <script>
+            function changeDashboardColor(color, message) {
+                // Target the main content area using its ID
+                const main = document.getElementById('dashboard-main');
+                if (main) {
+                    main.style.setProperty('background-color', color, 'important');
+                    // Also set text color to dark to ensure readability on light backgrounds
+                    main.style.setProperty('color', '#18181b', 'important');
+                }
+                
+                // Log the required message
+                console.log(message);
+            }
+        </script>
     </body>
 </html>
